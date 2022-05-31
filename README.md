@@ -1,4 +1,4 @@
-# SportFeildManagement
+# SportFieldManagement
 Qt+mssql 运动场地预约登记系统
 
 	数据库文件夹为本系统使用的数据库
