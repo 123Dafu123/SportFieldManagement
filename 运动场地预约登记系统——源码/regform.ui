@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegForm</class>
+ <widget class="QWidget" name="RegForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="recourse.qrc">
+    <normaloff>:/icon1.png</normaloff>:/icon1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(26,148,188);
+border:none</string>
+  </property>
+  <widget class="QGroupBox" name="BottomGB">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>640</width>
+     <height>240</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);
+border:none</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseB">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+		background-color: rgb(255, 0, 0);
+}
+QPushButton:pressed{
+	background-color: rgb(162, 0, 3);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="recourse.qrc">
+     <normaloff>:/icon2.png</normaloff>:/icon2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MinB">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+		background-color:rgb(21, 131, 161);
+}
+QPushButton:pressed{
+	background-color:rgb(17, 111, 134);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="recourse.qrc">
+     <normaloff>:/icon3.png</normaloff>:/icon3.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>19</width>
+     <height>19</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="LogGB">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>420</width>
+     <height>420</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid rgb(20, 196, 188);
+border-radius:30px;
+background-color:rgb(255,255,255);
+
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QLabel" name="RegStrL">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>10</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 290 20pt &quot;Microsoft YaHei UI&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>注册</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IdT">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+border:2px solid rgb(20,196,188);
+font: 290 9pt &quot;Microsoft YaHei UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>输入Id</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="NameT">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+border:2px solid rgb(20,196,188);
+font: 290 9pt &quot;Microsoft YaHei UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>输入用户名</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cancel">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>330</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(20,196,188);
+	color: rgb(255,255,255);
+	font: 25 14pt &quot;Microsoft YaHei UI&quot;;
+	border: none;
+	border-radius:20px;
+}
+
+QPushButton:hover{
+		background-color: rgb(22,218,208);
+}
+QPushButton:pressed{
+	background-color: rgb(17,171,164);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Reg">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(20,196,188);
+	color: rgb(255,255,255);
+	font: 25 14pt &quot;Microsoft YaHei UI&quot;;
+	border: none;
+	border-radius:20px;
+}
+
+QPushButton:hover{
+		background-color: rgb(22,218,208);
+}
+QPushButton:pressed{
+	background-color: rgb(17,171,164);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RegInfoL">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>341</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 9pt &quot;Microsoft YaHei UI&quot;;
+color:rgb(204,22,58);
+border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PswdT">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+border:2px solid rgb(20,196,188);
+font: 290 9pt &quot;Microsoft YaHei UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>输入密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="TeleT">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+border:2px solid rgb(20,196,188);
+font: 290 9pt &quot;Microsoft YaHei UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>输入电话号码</string>
+    </property>
+   </widget>
+   <zorder>RegStrL</zorder>
+   <zorder>IdT</zorder>
+   <zorder>NameT</zorder>
+   <zorder>Cancel</zorder>
+   <zorder>Reg</zorder>
+   <zorder>RegInfoL</zorder>
+   <zorder>TeleT</zorder>
+   <zorder>PswdT</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>CloseB</tabstop>
+  <tabstop>MinB</tabstop>
+  <tabstop>IdT</tabstop>
+  <tabstop>PswdT</tabstop>
+  <tabstop>NameT</tabstop>
+  <tabstop>TeleT</tabstop>
+  <tabstop>Reg</tabstop>
+  <tabstop>Cancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="recourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
